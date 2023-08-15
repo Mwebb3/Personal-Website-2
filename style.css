@@ -34,3 +34,37 @@ nav a {
 nav a.selected {
     background-color: cornflowerblue;
 }
+.container2 > div {
+    height: 27rem;
+    width: 32rem;
+    border-radius: 50%;
+    background-color: white;
+    border: outset 5px black;
+}
+.container2 {
+    text-align:center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about1 {
+    margin-top: 25px;
+}
+.about2 {
+    margin-top: 20%;
+}
+.about3 {
+    margin-top: 25px;
+}
+.abouthead {
+    padding-top:7rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: darkblue;
+}
+.aboutpara {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 19px;
+}
