@@ -16,20 +16,23 @@ nav a {
 .container {
     border: solid 1px black;
     height: 100vh;
-    background-image: url("websitephoto2.png");
+    background-image: url("homepg.png");
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    border: transparent;
 }
 .name {
     font-size: 70px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 9px;
-    padding-left: 28%;
+    padding-left: 27%;
 }
 nav a.selected {
     background-color: cornflowerblue;
@@ -67,4 +70,28 @@ nav a.selected {
     margin-right: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 19px;
+}
+.message {
+    height: 20vh;
+    width: 30vh;
+}
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60vh;
+    background-color:aliceblue;
+    background-image: url(form.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    margin-left: 43vh;
+    margin-top: 15vh;
+}
+.submit {
+    margin-left: 5rem;
+}
+.contact {
+    text-align: center;
 }
