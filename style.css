@@ -13,6 +13,11 @@ nav a {
     color: white;
     font-size: 32px;
 }
+nav a:hover {
+    background-color:aqua;
+    color: darkblue;
+    transition: all 1s;
+}
 .container {
     border: solid 1px black;
     height: 100vh;
